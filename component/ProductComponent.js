@@ -261,7 +261,6 @@ const ProductComponent = () => {
           </Flex>
         </Flex>
       </Flex>
-      
     </Flex>
   );
 };
