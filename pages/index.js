@@ -7,6 +7,7 @@ import TopbanComponent from '@/component/TopbanComponent';
 import TopbreadcrumComponent from '@/component/TopbreadcrumComponent';
 
 import ProductComponent from '@/component/ProductComponent';
+import FooterComponent from '@/component/FooterComponent';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <HeaderComponent />
         <TopbreadcrumComponent />
         <ProductComponent />
+        <FooterComponent />
       </main>
     </>
   );

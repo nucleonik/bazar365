@@ -1,11 +1,12 @@
-import '@/styles/globals.css'
-import * as React from 'react'
-import { ChakraProvider } from '@chakra-ui/react'
-import Slider from 'react-slick'
+import '@/styles/globals.css';
+import * as React from 'react';
+import { ChakraProvider } from '@chakra-ui/react';
 
 function MyApp({ Component, pageProps }) {
-  return <ChakraProvider>
-  <Component {...pageProps} /> <Slider/>
-  </ChakraProvider>
+  return (
+    <ChakraProvider>
+      <Component {...pageProps} />
+    </ChakraProvider>
+  );
 }
-export default MyApp
+export default MyApp;
